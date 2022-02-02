@@ -23,8 +23,8 @@ function deleteCat() {
     document.querySelectorAll('.Meow').forEach(e => e.remove());
 }
 function addCat() {
-    currentTop = Math.floor((Math.random() * documentHeight) / 2 + (documentHeight / 4)) + 1;
-    currentLeft = Math.floor((Math.random() * documentWidth) / 3 + (documentWidth / 3)) + 1;
+    currentTop = Math.floor((Math.random() * documentHeight)) + 1;
+    currentLeft = Math.floor((Math.random() * documentWidth)) + 1;
     let catSelection = Math.floor(Math.random() * 10)
     console.log(currentLeft)
     catStarterDiv.style.top = currentTop + 'px';
