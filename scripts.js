@@ -10,10 +10,18 @@ const documentWidth = document.documentElement.clientWidth;
 //eventlistener for catbuttonclicks
 
 //catButtonClick.addEventListener('click', deleteCat)
-catButtonClick.addEventListener('click', addCat)
-
+//catButtonClick.addEventListener('click', addCat)
+catButtonClick.addEventListener('click', manyCats)
 //cat functions
+//10 cats at a time
 
+function manyCats() {
+    let i = 10;
+    while (i > 0) {
+        addCat()
+        i--
+    }
+}
 //cat persistent code
 
 function addCat() {
