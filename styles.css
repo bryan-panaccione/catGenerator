@@ -53,6 +53,7 @@ h2 {
   line-height: 1.5em;
     padding-bottom: 1em
 }
+/*
 h3 {
   font-size: 1.25em;
   line-height: 1.5em;
@@ -74,6 +75,8 @@ p {
   position: relative;
   margin: 0 0 1.5em 0;
 }
+*/
+
 /* Button */
 .button {
   -moz-appearance: none;
@@ -116,7 +119,7 @@ p {
   background: #C8E7FF;
   color: black;
 }
-/* Header */
+/* Header 
 #header {
   background: #fff;
   color: #555f66;
@@ -179,6 +182,7 @@ p {
 #pageTitle a:hover{
     color: cornflowerblue;
 }
+
 header h1 a {
   align-content: center;
   text-decoration: none;
@@ -188,20 +192,21 @@ header h1 a {
   color: #555f66;
 
 }
+*/
 
-/*footer */
+/*footer
 
 #footer {
     padding: 3em;
     background-color: white;
     margin: -1em;     
 }
-
+ */
 #catApp{
     padding: 1em 0em 1em 0em;
     text-align: center;
 }
-
+ 
 .catButton {
     background-color: red;
     line-height: 3em;
